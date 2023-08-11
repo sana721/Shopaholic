@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 2px;
+  pointer-events: none;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  font: 15px sans-serif;
+  color: #030303;
+  line-height: 1;
+  padding: 12px;
+  background: rgb(250, 247, 247);
+  color: rgb(19, 18, 18);
+  border-radius: 2px;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#select , #select-pie { 
+  font-size: 16px;
+}
+
+.line {
+  stroke: #0D6251;
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  fill: #757575;
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.x.label {
+  fill: #757575;
+  font-weight: bold;
+}
+
+.y.label {
+  fill: #757575;
+  font-weight: bold;
+}
+
+.bar {
+  fill: #48C9B0;
+}
+
+#rating {
+  width: 500px;
+  margin: 20px auto;
+  display: block;
+}
+
+#scatterplot {
+  margin-top: 30px;
+}
+
+#sliderValue {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+svg {
+  background-color: #f5f5f5;
+}
